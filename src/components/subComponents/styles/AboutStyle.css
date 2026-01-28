@@ -2,6 +2,7 @@
   --color--border-About: #023859;
 }
 .sectionOne {
+  height: 80dvh;
   display: flex;
   flex-direction: column;
   align-items: center;

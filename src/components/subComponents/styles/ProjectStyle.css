@@ -1,12 +1,22 @@
+:root {
+  --color--border-Project: #023859;
+}
+.sectionTwo {
+  padding: 70px;
+}
 .tituleProjects {
   margin: 0;
+  padding: 8px 8px 8px 0;
 }
 
-.containerProject1 {
-  border: 1px solid red;
+.containerProject {
+  border: 2px solid var(--color--border-Project);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 60px;
 }
 .containerScreenshot {
-  border: 1px solid red;
   display: flex;
 }
 .containerLinks {
@@ -19,6 +29,9 @@
 }
 .imgProject1 {
   width: 95%;
+  border-radius: 0 30px 30px 0;
+  border: 2px solid var(--color--border-Project);
+  border-left: none;
 }
 
 .iconchain {
