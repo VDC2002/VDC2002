@@ -1,0 +1,13 @@
+:root {
+  --color--background-Body: #f2f4f8;
+  --font-Family: "Fira Code", monospace;
+}
+
+body {
+  font-family: var(--font-Family);
+  margin: 0;
+  padding: 0;
+}
+.containerPortfolio {
+  background-color: var(--color--background-Body);
+}

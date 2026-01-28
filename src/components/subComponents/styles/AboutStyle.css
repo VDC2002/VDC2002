@@ -1,0 +1,63 @@
+:root {
+  --color--border-About: #023859;
+}
+.sectionOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 0 10px;
+}
+
+.containerText {
+  width: 60%;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  border: 2px solid var(--color--border-About);
+}
+.tituleAbout {
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+}
+.paragraphAbout {
+  height: fit-content;
+  text-align: center;
+}
+
+/*Container Chain*/
+.containerChain {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.chain {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.iconCircle {
+  width: 10px;
+}
+
+/*SECTION SKILLS*/
+.containerSkills {
+  border: 2px solid var(--color--border-About);
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.iconsSkills {
+  width: 45px;
+  cursor: pointer;
+}
+.iconsSkills:hover {
+  scale: 1.2;
+}

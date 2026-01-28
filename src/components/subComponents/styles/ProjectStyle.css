@@ -1,0 +1,30 @@
+.tituleProjects {
+  margin: 0;
+}
+
+.containerProject1 {
+  border: 1px solid red;
+}
+.containerScreenshot {
+  border: 1px solid red;
+  display: flex;
+}
+.containerLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+.imgProject1 {
+  width: 95%;
+}
+
+.iconchain {
+  width: 30px;
+}
+.iconGithub {
+  font-size: 30px;
+  color: black;
+}
