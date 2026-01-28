@@ -2,6 +2,7 @@ import "./styles/ProjectStyle.css";
 import Mobile from "../../assets/screenshotMobile.jpg";
 import AppWeather from "../../assets/screenshotAppWeather.jpg";
 import Snake from "../../assets/screenshotSnake.jpg";
+import TicTacToe from "../../assets/screenshotTicTacToe.jpg";
 import iconChain from "../../assets/iconChain.svg";
 import { FaGithub } from "react-icons/fa";
 function SectionProject() {
@@ -85,6 +86,46 @@ function SectionProject() {
             <a
               className="links"
               href="https://vdc2002.github.io/mi__portafolio/games/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="iconchain"
+                src={iconChain}
+                alt="link"
+                title="Link"
+              />
+            </a>
+            <a
+              className="links"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub className="iconGithub" title="Github" />
+            </a>
+          </div>
+        </div>
+        <p className="description">
+          Description: Proyecto de copia de un mobile, tiene la calculadora, una
+          to do list, un convertidor de moneda y la opcion de settings
+        </p>
+        <p className="hastag">
+          <span>#HTML</span>
+          <span>#CSS</span>
+          <span>#JAVASCRIPT</span>
+        </p>
+      </div>
+
+      {/* Project TicTacToe */}
+      <div className="containerProject">
+        <h2 className="tituleProjects">Project - TicTacToe</h2>
+        <div className="containerScreenshot">
+          <img className="imgProject1" src={TicTacToe} alt="TicTacToe" />
+          <div className="containerLinks">
+            <a
+              className="links"
+              href="https://vdc2002.github.io/mi__portafolio/TicTacToe/index.html"
               target="_blank"
               rel="noopener noreferrer"
             >

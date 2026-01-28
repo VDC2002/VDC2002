@@ -1,0 +1,82 @@
+:root {
+  --color--border-Footer: #023859;
+  --font-Family-Footer: "Fira Code", monospace;
+}
+.containerfooter {
+  border: 2px solid var(--color--border-Footer);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 10px;
+}
+.containerPhoto {
+  width: fit-content;
+  position: relative;
+}
+
+.photoVictor {
+  width: 260px;
+  height: 260px;
+  border: 2px solid var(--color--border-Footer);
+  background-color: var(--color--border-Footer);
+  border-radius: 100%;
+}
+.iconsFooter {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.iconsFooterGithub {
+  cursor: pointer;
+  position: absolute;
+  font-size: 45px;
+  left: 255px;
+  bottom: 30px;
+}
+.iconsFooterGithub:hover,
+.iconsFooter:hover {
+  scale: 1.2;
+  transform: rotate(8deg);
+}
+
+.iconGmail {
+  position: absolute;
+  left: 240px;
+}
+.iconLinkedin {
+  position: absolute;
+  bottom: 95px;
+  left: 280px;
+}
+.iconInstagram {
+  position: absolute;
+  bottom: 165px;
+  left: 277px;
+}
+.containerDownload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonDownload {
+  width: fit-content;
+  height: 30px;
+  font-family: var(--font-Family-Footer);
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--color--border-Footer);
+  border-top: none;
+  border-left: none;
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 15px;
+  gap: 8px;
+  cursor: pointer;
+}
+.buttonDownload:hover {
+  scale: 1.1;
+}
