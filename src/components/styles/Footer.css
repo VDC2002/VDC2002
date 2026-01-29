@@ -1,5 +1,6 @@
 :root {
   --color--border-Footer: #023859;
+  --color--Text-Footer: #011c40;
   --font-Family-Footer: "Fira Code", monospace;
 }
 .containerfooter {
@@ -12,10 +13,17 @@
   justify-content: space-around;
   align-items: center;
   padding: 20px 10px;
+  gap: 15px;
+  color: var(--color--Text-Footer);
 }
 .containerPhoto {
+  display: flex;
   width: fit-content;
-  position: relative;
+}
+.containerIconsRed {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .photoVictor {
@@ -32,10 +40,14 @@
 }
 .iconsFooterGithub {
   cursor: pointer;
-  position: absolute;
   font-size: 45px;
-  left: 255px;
-  bottom: 30px;
+  color: rgba(0, 0, 0, 0.904);
+}
+.iconLinkedin {
+  margin-left: 20px;
+}
+.iconInstagram {
+  margin-left: 20px;
 }
 .iconsFooterGithub:hover,
 .iconsFooter:hover {
@@ -43,26 +55,13 @@
   transform: rotate(8deg);
 }
 
-.iconGmail {
-  position: absolute;
-  left: 240px;
-}
-.iconLinkedin {
-  position: absolute;
-  bottom: 95px;
-  left: 280px;
-}
-.iconInstagram {
-  position: absolute;
-  bottom: 165px;
-  left: 277px;
-}
 .containerDownload {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .buttonDownload {
+  color: var(--color--Text-Footer);
   width: fit-content;
   height: 30px;
   font-family: var(--font-Family-Footer);
@@ -79,4 +78,30 @@
 }
 .buttonDownload:hover {
   scale: 1.1;
+}
+
+/*QUERY FOR MOBILE AND TABLET:*/
+@media screen and (max-width: 433px) {
+  .phrase {
+    text-align: center;
+  }
+  .containerPhoto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .containerIconsRed {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 15px;
+  }
+
+  .iconLinkedin {
+    margin-left: 0;
+  }
+  .iconInstagram {
+    margin-left: 0;
+  }
 }

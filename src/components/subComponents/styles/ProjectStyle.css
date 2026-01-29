@@ -1,5 +1,6 @@
 :root {
   --color--border-Project: #023859;
+  --color--Text-Project: #011c40;
 }
 .sectionTwo {
   padding: 70px;
@@ -15,6 +16,7 @@
   border-left: none;
   border-right: none;
   margin-bottom: 60px;
+  color: var(--color--Text-Project);
 }
 .containerScreenshot {
   display: flex;
@@ -44,4 +46,24 @@
 .iconchain:hover,
 .iconGithub:hover {
   scale: 1.3;
+}
+/*QUERY FOR MOBILE AND TABLET:*/
+@media screen and (max-width: 850px) {
+  .sectionTwo {
+    padding: 20px;
+  }
+  .tituleProjects {
+    padding: 0;
+    font-size: 20px;
+  }
+  .containerScreenshot {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .imgProject1 {
+    width: 100%;
+  }
+  .containerLinks {
+    flex-direction: row;
+  }
 }

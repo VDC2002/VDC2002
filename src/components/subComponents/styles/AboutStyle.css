@@ -1,5 +1,6 @@
 :root {
   --color--border-About: #023859;
+  --color--Text-About: #011c40;
 }
 .sectionOne {
   height: 80dvh;
@@ -11,6 +12,7 @@
 }
 
 .containerText {
+  color: var(--color--Text-About);
   width: 60%;
   padding: 10px 25px;
   display: flex;
@@ -61,4 +63,22 @@
 }
 .iconsSkills:hover {
   scale: 1.2;
+}
+
+/*QUERY FOR MOBILE AND TABLET:*/
+@media screen and (max-width: 500px) {
+  .sectionOne {
+    height: 500px;
+  }
+
+  .containerChain {
+    width: 180px;
+  }
+  .containerSkills {
+    padding: 10px;
+    gap: 12px;
+  }
+  .iconsSkills {
+    width: 35px;
+  }
 }

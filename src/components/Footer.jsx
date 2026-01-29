@@ -9,25 +9,27 @@ function Footer() {
     <div className="containerfooter">
       <div className="containerPhoto">
         <img className="photoVictor" src={Photo} alt="Photo Victor" />
-        <img
-          className="iconsFooter iconGmail"
-          src={Gmail}
-          alt="Gmail"
-          title="Gmail"
-        />
-        <img
-          className="iconsFooter iconLinkedin"
-          src={Linkedin}
-          alt="Linkedin"
-          title="Linkedin"
-        />
-        <img
-          className="iconsFooter iconInstagram"
-          src={Instagram}
-          alt="Instagram"
-          title="Instagram"
-        />
-        <FaGithub className="iconsFooterGithub" title="Github" />
+        <div className="containerIconsRed">
+          <img
+            className="iconsFooter iconGmail"
+            src={Gmail}
+            alt="Gmail"
+            title="Gmail"
+          />
+          <img
+            className="iconsFooter iconLinkedin"
+            src={Linkedin}
+            alt="Linkedin"
+            title="Linkedin"
+          />
+          <img
+            className="iconsFooter iconInstagram"
+            src={Instagram}
+            alt="Instagram"
+            title="Instagram"
+          />
+          <FaGithub className="iconsFooterGithub" title="Github" />
+        </div>
       </div>
       <div className="containerDownload">
         <p className="phrase">Creating clean & functional web experiences</p>

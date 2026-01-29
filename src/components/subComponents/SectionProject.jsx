@@ -38,8 +38,8 @@ function SectionProject() {
           </div>
         </div>
         <p className="description">
-          Description: Proyecto de copia de un mobile, tiene la calculadora, una
-          to do list, un convertidor de moneda y la opcion de settings
+          Description: An interactive project that simulates a mobile phone
+          interface with multiple apps inside a mobile layout.
         </p>
         <p className="hastag">
           <span>#REACT</span>
@@ -67,8 +67,7 @@ function SectionProject() {
           </div>
         </div>
         <p className="description">
-          Description: Proyecto de copia de un mobile, tiene la calculadora, una
-          to do list, un convertidor de moneda y la opcion de settings
+          Description: A simple weather application with multiple cities.
         </p>
         <p className="hastag">
           <span>#HTML</span>
@@ -107,8 +106,7 @@ function SectionProject() {
           </div>
         </div>
         <p className="description">
-          Description: Proyecto de copia de un mobile, tiene la calculadora, una
-          to do list, un convertidor de moneda y la opcion de settings
+          Description: A Snake game project that simulates a Nintendo console.
         </p>
         <p className="hastag">
           <span>#HTML</span>
@@ -147,8 +145,7 @@ function SectionProject() {
           </div>
         </div>
         <p className="description">
-          Description: Proyecto de copia de un mobile, tiene la calculadora, una
-          to do list, un convertidor de moneda y la opcion de settings
+          Description: This project is for fun and playing with someone.
         </p>
         <p className="hastag">
           <span>#HTML</span>
