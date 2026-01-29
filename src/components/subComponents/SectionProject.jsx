@@ -7,7 +7,7 @@ import iconChain from "../../assets/iconChain.svg";
 import { FaGithub } from "react-icons/fa";
 function SectionProject() {
   return (
-    <div className="sectionTwo">
+    <div id="idProjects" className="sectionTwo">
       {/* Project MOBILE PHONE */}
       <div className="containerProject">
         <h2 className="tituleProjects">Project - Mobile Phone</h2>

@@ -3,6 +3,9 @@
   --color--Text-Footer: #011c40;
   --font-Family-Footer: "Fira Code", monospace;
 }
+* {
+  caret-color: transparent;
+}
 .containerfooter {
   border: 2px solid var(--color--border-Footer);
   border-bottom: none;
@@ -26,12 +29,22 @@
   gap: 25px;
 }
 
+.linkFooter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 .photoVictor {
   width: 260px;
   height: 260px;
   border: 2px solid var(--color--border-Footer);
   background-color: var(--color--border-Footer);
   border-radius: 100%;
+}
+.linkFooter {
+  text-decoration: none;
+  list-style: none;
+  color: var(--color--Text-Footer);
 }
 .iconsFooter {
   width: 40px;
@@ -49,10 +62,9 @@
 .iconInstagram {
   margin-left: 20px;
 }
-.iconsFooterGithub:hover,
-.iconsFooter:hover {
+.linkFooter:hover {
+  cursor: pointer;
   scale: 1.2;
-  transform: rotate(8deg);
 }
 
 .containerDownload {
@@ -96,6 +108,11 @@
     flex-direction: row;
     margin-top: 10px;
     gap: 15px;
+  }
+  .linkFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
   }
 
   .iconLinkedin {

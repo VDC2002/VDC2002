@@ -33,7 +33,9 @@ a {
   padding: 40px 15px;
 }
 .nav {
+  background-color: #e6e9f0;
   border: 2px solid var(--color--border);
+  box-shadow: 4px 4px 8px var(--color--Text);
   padding: 9px;
   display: flex;
   flex-wrap: wrap;
@@ -42,6 +44,7 @@ a {
   width: 50%;
   min-width: 280px;
   height: auto;
+  position: fixed;
 }
 
 .listNav {

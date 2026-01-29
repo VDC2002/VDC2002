@@ -8,27 +8,27 @@ import {
 } from "react-icons/fa";
 function Header() {
   return (
-    <div className="containerHeader">
+    <div id="idHeader" className="containerHeader">
       <nav className="nav">
         <h2 className="tituleNav">VICTOR</h2>
         <ul className="listNav">
           <li>
-            <a className="itemsNav" href="#">
+            <a className="itemsNav" href="#idHeader">
               HOME
             </a>
           </li>
           <li>
-            <a className="itemsNav" href="#">
+            <a className="itemsNav" href="#idAbout">
               ABOUT
             </a>
           </li>
           <li>
-            <a className="itemsNav" href="#">
+            <a className="itemsNav" href="#idProjects">
               PROJECT
             </a>
           </li>
           <li>
-            <a className="itemsNav contact" href="#">
+            <a className="itemsNav contact" href="#idcontact">
               CONTACT <FaArrowUp className="iconArrowUp" />
             </a>
           </li>

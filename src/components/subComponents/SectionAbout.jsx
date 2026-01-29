@@ -9,7 +9,7 @@ const colorIconCircle = "#023859";
 
 function SectionAbout() {
   return (
-    <div className="sectionOne">
+    <div id="idAbout" className="sectionOne">
       {/* <img className="imgAbout" src={Photo} alt="PhotoMine" /> */}
       <div className="containerText">
         <h1 className="tituleAbout">About me</h1>
