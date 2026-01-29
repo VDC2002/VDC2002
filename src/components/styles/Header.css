@@ -73,6 +73,10 @@ a {
   gap: 10px;
   text-align: center;
 }
+.iconsHeader {
+  text-decoration: none;
+  color: var(--color--Text);
+}
 .tituleDescription {
   font-size: 50px;
   color: var(--color--Text);

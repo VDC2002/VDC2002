@@ -53,7 +53,12 @@ function SectionProject() {
         <div className="containerScreenshot">
           <img className="imgProject1" src={AppWeather} alt="App Weather" />
           <div className="containerLinks">
-            <a className="links" href="#">
+            <a
+              className="links"
+              href="https://vdc2002.github.io/APP---WEATHER/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 className="iconchain"
                 src={iconChain}
@@ -61,7 +66,12 @@ function SectionProject() {
                 title="Link"
               />
             </a>
-            <a className="links" href="#">
+            <a
+              className="links"
+              href="https://github.com/VDC2002/APP---WEATHER"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub className="iconGithub" title="Github" />
             </a>
           </div>
@@ -84,7 +94,7 @@ function SectionProject() {
           <div className="containerLinks">
             <a
               className="links"
-              href="https://vdc2002.github.io/mi__portafolio/games/index.html"
+              href="https://vdc2002.github.io/SnakeGame/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -97,7 +107,7 @@ function SectionProject() {
             </a>
             <a
               className="links"
-              href="#"
+              href="https://github.com/VDC2002/SnakeGame"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -123,7 +133,7 @@ function SectionProject() {
           <div className="containerLinks">
             <a
               className="links"
-              href="https://vdc2002.github.io/mi__portafolio/TicTacToe/index.html"
+              href="https://vdc2002.github.io/TicTacToe-Game/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -136,7 +146,7 @@ function SectionProject() {
             </a>
             <a
               className="links"
-              href="#"
+              href="https://github.com/VDC2002/TicTacToe-Game"
               target="_blank"
               rel="noopener noreferrer"
             >
